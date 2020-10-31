@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "8ebecf8bcff16f75",
+    "type": "split",
+    "children": [
+      {
+        "id": "09f99d5d1496ef98",
+        "type": "leaf",
+        "dimension": 25.075757575757574,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Decision Making Exam.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "7ad66f84bd388f01",
+        "type": "leaf",
+        "dimension": 25.075757575757574,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Setup.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b2e9f3d7446af3d2",
+        "type": "leaf",
+        "dimension": 24.015151515151516,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Resources.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "929db60faaaa9c70",
+        "type": "leaf",
+        "dimension": 25.833333333333336,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Emotional Prospects.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82d7f7837c8bb533",
+    "type": "split",
+    "children": [
+      {
+        "id": "63060b68cab5a9cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce6c35c28b52a825",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8dceaf592a365665",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ccfe070cc0af382",
+    "type": "split",
+    "children": [
+      {
+        "id": "f847f4b46b747436",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe8b57207f428bca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Resources.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Resources.md",
+    "Setup.md",
+    "Decision Making Exam.md",
+    "Emotional Prospects.md",
+    "How to write OSF.md"
+  ]
+}

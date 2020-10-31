@@ -1,0 +1,39 @@
+# How to write [[OSF]]
+- [ ] Start a new preregistration
+- [ ]  Title
+- [ ]  Description
+- [ ]  Contributor
+- [ ]  Hypotheses
+	- E.g. Drinking coke will make  people fatter (An intervention)
+	- Could  there by an interaction : e.g.  Coke only makes you fatter if you stop exercising, but if you don't stop
+- [ ] Type
+	- **Experiment: We could do the Coke Intervention (Chris Favors this type)**
+	- Observational: Take data as they arise (You cannot induce a pandemic for example) -> it's often hard to replicate this experimentally as they are so heavily confounded by other factors
+	- Meta-studies: Aggregate findings and combine the knowledge
+- [ ] Blinding
+	- A bit less relevant for the field of decision-making
+		- Noblinding is okay as we're not having any pharmaceutical  interventions
+		- But  think about it
+
+- [ ] Study Design
+	- Follow the whole guideline
+- [ ] Sampling plan
+	- [ ] Data collection procedure
+		- Important with the exclusion scenaria
+		- We'd want human subjects
+			- Online? MTurk?
+			- Undergrad population
+			- CobeLab
+			- General population of danes
+		- Payment
+			- What are you expected to earn?
+- [ ] Variables
+	- What are you running?
+	- This is the meat
+- [ ] Models
+	- How will we analyze the data
+		- Could be a hierachical Baysian Model
+		- Inference Criteria
+			- one or  two tailed?
+		- Outlier exclusion
+			- 
