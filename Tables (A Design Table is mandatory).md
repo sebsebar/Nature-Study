@@ -1,0 +1,5 @@
+# Table 1. Design Table
+- You must include this mandatory Design table. The columns are prescribed; the number of rows will depend on the number of research questions you will address in your Registered Report. 
+	- Ensure that there is an exact correspondence between each scientific hypothesis and each statistical test. For example, it is not appropriate to write: Condition A will affect performance differently from Condition B. Instead, you must define the performance measure (e.g. Reaction Time) and the predicted direction of the difference. This would translate to, e.g.: Reaction times will be significantly higher in Condition A than Condition B.
+	- If your analysis strategy will depend on the results (e.g. normal vs. non-normal distribution) then specify the contingencies for making different choices, i.e. IF-THEN statements.
+	- You cannot interpret lack of evidence for the existence of an effect in NHST (e.g. a p>0.05 in a t-test) as evidence for the absence of an effect. To be able to interpret null results, you must commit to using Bayes Factors or equivalence testing. 

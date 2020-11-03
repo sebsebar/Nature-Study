@@ -6,7 +6,7 @@
       {
         "id": "09f99d5d1496ef98",
         "type": "leaf",
-        "dimension": 25.075757575757574,
+        "dimension": 48.33333333333334,
         "state": {
           "type": "markdown",
           "state": {
@@ -16,38 +16,254 @@
         }
       },
       {
-        "id": "7ad66f84bd388f01",
+        "id": "3b8ccebf56345cf2",
         "type": "leaf",
-        "dimension": 25.075757575757574,
+        "dimension": 0.0000669016982569839,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Setup.md",
+            "file": "OSF WRITING.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "b2e9f3d7446af3d2",
+        "id": "fe35f238a14ea239",
         "type": "leaf",
-        "dimension": 24.015151515151516,
+        "dimension": 0.0000669016982569839,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Resources.md",
+            "file": "Supplementary information.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "929db60faaaa9c70",
+        "id": "547167dc35a2e799",
         "type": "leaf",
-        "dimension": 25.833333333333336,
+        "dimension": 0.0001338033965139678,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Emotional Prospects.md",
+            "file": "Tables (A Design Table is mandatory).md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "d89d4758ae370881",
+        "type": "leaf",
+        "dimension": 0.0002676067930279356,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Figures & Figure captions.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "321df31b3408591d",
+        "type": "leaf",
+        "dimension": 0.0005352135860558712,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Competing interests.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0889402004bc244e",
+        "type": "leaf",
+        "dimension": 0.0010704271721117425,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Author contributions.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6ba0f085d4b60345",
+        "type": "leaf",
+        "dimension": 0.002140854344223485,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Acknowledgements.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "df43a20f1b4bd0e3",
+        "type": "leaf",
+        "dimension": 0.00428170868844697,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Discussion And Results.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "46bbbdadc0c192f9",
+        "type": "leaf",
+        "dimension": 0.00856341737689394,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "References.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "8a25af17960ee42f",
+        "type": "leaf",
+        "dimension": 0.01712683475378788,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Code availability statement.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "18060e36f3c84b36",
+        "type": "leaf",
+        "dimension": 0.03425366950757576,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Data availability statement.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "d20b0292965421ee",
+        "type": "leaf",
+        "dimension": 0.06850733901515152,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Analysis plan.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "c5a1a9ef34618bd3",
+        "type": "leaf",
+        "dimension": 0.13701467803030304,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Sampling plan.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "10c854b87927a851",
+        "type": "leaf",
+        "dimension": 0.2740293560606061,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Design.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "9208231768ee23af",
+        "type": "leaf",
+        "dimension": 0.5480587121212122,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Pilot data.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "9b0167766b2c57d4",
+        "type": "leaf",
+        "dimension": 1.0961174242424243,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Ethics.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "61156e9ddbe8dc98",
+        "type": "leaf",
+        "dimension": 2.1922348484848486,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Introduction.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0e6bbd8fff056ea6",
+        "type": "leaf",
+        "dimension": 4.384469696969697,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Abstract.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "1449f00a2b8b0f53",
+        "type": "leaf",
+        "dimension": 8.768939393939394,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Title.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "732599188ec03e84",
+        "type": "leaf",
+        "dimension": 17.53787878787879,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Abstract.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b45434ae3c50aa7a",
+        "type": "leaf",
+        "dimension": 16.590909090909093,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Title.md",
             "mode": "source"
           }
         }
@@ -101,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources.md"
+                "file": "Supplementary information.md"
               }
             }
           }
@@ -113,10 +329,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Resources.md",
-    "Setup.md",
-    "Decision Making Exam.md",
-    "Emotional Prospects.md",
-    "How to write OSF.md"
+    "Supplementary information.md",
+    "OSF WRITING.md",
+    "Tables (A Design Table is mandatory).md",
+    "Figures & Figure captions.md",
+    "Competing interests.md",
+    "Author contributions.md",
+    "Acknowledgements.md",
+    "Discussion And Results.md",
+    "References.md",
+    "Code availability statement.md"
   ]
 }

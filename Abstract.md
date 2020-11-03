@@ -1,0 +1,2 @@
+# Abstract
+The abstract of your Stage 1 Registered Report protocol should not exceed 150 words and should not contain any references. It should start with a sentence that introduces the general topic and its significance for a broad audience. It should then describe the specific question(s) your research addresses, what you will do, and broadly, what results would confirm or disconfirm your hypotheses. The abstract can be brief and will be slightly revised at Stage 2 submission to include the results.

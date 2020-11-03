@@ -1,0 +1,2 @@
+# Data availability statement
+- For Registered Reports, public sharing of data and materials upon acceptance for publication of the Stage 2 manuscript is mandatory. Please include a statement committing to sharing your raw data and materials on acceptance of your Stage 2 manuscript. Please deposit any pilot data that you may have already collected. Pilot data should be made accessible for peer-review, but can be placed under embargo until Stage 2 acceptance. 

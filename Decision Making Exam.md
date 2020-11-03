@@ -1,6 +1,7 @@
 Topics: [[Decision Making]], [[Decision Making Class]]
 # Main Idea
 [[Emotional Prospects]]
+[[OSF WRITING]]
 
 # Resources
 [[Resources]]

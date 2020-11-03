@@ -1,0 +1,19 @@
+- [[Title]]
+- [[Abstract]]
+- [[Introduction]] (no subheadings permitted)
+- Methods
+	- [[Ethics]] information
+	- [[Pilot data]] (if applicable)
+	- [[Design]]
+	- [[Sampling plan]]
+[[Analysis plan]]
+[[Data availability statement]]
+[[Code availability statement]]
+[[Discussion And Results]]
+[[References]]
+[[Acknowledgements]]
+[[Author contributions]]
+[[Competing interests]]
+[[Figures & Figure captions]]
+[[Tables (A Design Table is mandatory)]]
+[[Supplementary information]]

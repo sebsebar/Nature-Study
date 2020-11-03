@@ -1,0 +1,2 @@
+# Author contributions
+- We require authors to include an author contributions statement of their individual contributions to the paper -- such as experimental work, project planning, data analysis, etc (see the CRediT taxonomy for relevant contributor roles: https://casrai.org/credit/). The statement should be short, and refer to authors by their initials. For details please see the Authorship section of our joint Nature Research Editorial policies at http://www.nature.com/authors/editorial_policies/authorship.html

@@ -1,0 +1,4 @@
+# Ethics information
+- If your protocol describes research with human participants, the Methods section must start with a statement confirming that the research complies with all relevant ethical regulations; naming the board and institution that approved the study protocol; and confirming that informed consent will be obtained from all human participants. Information on participant compensation must also be included. 
+- If your manuscript reports the results of research with non-human animals, the Methods section starts with a statement confirming that the research complies with all relevant ethical regulations; naming the board and institution that approved the study protocol; and confirming that the ARRIVE guidelines were used to report the research.
+- If your manuscript reports the results of a clinical trial, the Ethics information section also includes the trial registration number from ClinicalTrials.gov or an equivalent approved trials registry.
