@@ -35,6 +35,9 @@ Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, Karim S. Kassam, Emotion and Dec
 [The effect of emotion on risky decision making in the context of prospect theory: a comprehensive literature review](https://link.springer.com/article/10.1007/s11301-019-00169-2)
 
 
+# Paper on Prospect Theory
+[This paper presents data from a big Prospect analysis](https://scholar.google.com/scholar?q=A%20parametric%20analysis%20of%20prospect%20theory%E2%80%99s%20functionals%20for%20the%20general%20population)
+
 # Ideas from Seb
 - Movies to elicit emotions
 - Prospect Theory Example Tasks
