@@ -9,3 +9,5 @@ Topics: [[Decision Making]], [[Decision Making Class]]
 ![[How to write OSF]]
 [Look at  Nature: Human Behaviour and write the OSF Directly aimed at them](https://www.nature.com/nathumbehav/registeredreports)
 Do a power analysis
+
+'
