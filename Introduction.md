@@ -11,3 +11,10 @@
 - The Introduction should not include any subheadings. 
 - The Introduction (and the manuscript in its entirety) must not include priority or novelty claims (except in the case of genetic or archaeological discovery). 
 - References in the main text should appear as superscript numerals, in order of mention. Only articles that have been published or accepted by a named publication or recognized preprint server should be in the reference list. If a manuscript is under consideration or not yet submitted, it should be mentioned in the main text only in parentheses, as follows: (Up to five author names, et al., unpublished manuscript). Published conference abstracts, numbered patents and research datasets that have been assigned a digital object identifier may be included in the reference list. 
+
+
+# Our Intro
+- We are diiving into the Emotion research landscape leveraging the Circumplex model, Sam A/V ratings, which are all used in the Emotional Eliiciitatoin tasks of NATURE
+- We are doing VR - it's new, it's hot and NATURE likes it
+- We are building on the insights of a recent review, trying to incorportate it's findings
+- Prospect Theory....
