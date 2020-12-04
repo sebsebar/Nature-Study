@@ -1,11 +1,12 @@
 # Resources
+[Seb Zotero](https://www.zotero.org/groups/2500051/sebastian_scott_engen_-_public_library/collections/EGS7UWMI/items/F83RUQKY/collection?fbclid=IwAR3RN0XksbbRAzN2ARSrQP4HR5n-Flx2W8AuHEWBKUstycttpR7j73WgBUw)
 
 ## Old Papers
 ### A History Of Bringing Economics Down To Earth & Letting Humans Choose Their Own Utility Function
 ![[Decision-Making.pdf]]
 - "Counterarguments - the relevancy of emotion and memory theories
 One could argue that EPT already includes a reference point for individuals in their model, but this is a faulty statement, as there’s only talk of a reference point for utility in the dimensions of gain and loss. It fails to incorporate how affective states systematically manipulate these dimensions of gains and losses. Beyond a weighting function, as suggested earlier, one could imagine having the EPT change depending on a reference point in an emotional spectrum, e.g. of Arousal and Valence.
- ![[Pasted image 20201026114023.png]]
+![[Pasted image 20201204113235.png]]
 More pressingly an economist might argue that by adding too many predictors to one’s model of decision-making, it also renders it too complicated and thereby useless. – you know, like a tube map is useful, preserving the essential features for navigation whilst removing all non-essential.
 But as the famous philosopher Alfred Korzybski  once remarked “The map is not the territory”, and one shouldn’t confuse poor models of reality with reality itself. If research into emotions continues to grow as model 10 shows, and the worlds computational power keeps growing exponentially,  then I see no reason not to use more realistic and complex models. Let me draw a picture of what I mean: If U were to rebuild cities or political schemes, would you want to use a tube map for placing your new buildings or guiding your new actions? No, this would be completely upside down. You would want to have as clear a picture of reality as possible, so you wouldn’t trample down whole neighbourhoods or bulldoze whole fractions of society to make reality conform to a fictitious picture one’s economic model/tube map has painted.
 "
@@ -54,6 +55,8 @@ Jennifer S. Lerner, Ye Li, Piercarlo Valdesolo, Karim S. Kassam, Emotion and Dec
 - Possible to do it online
 - Attention checks for video stimuli
 	- 1 or 2 online studies
+
+[[Meeting With Panos December 4th]]
 
 ## Ideas from Mikkel
 [Hierarchical Bayesian parameter estimation for cumulative prospect theory](https://pdf.sciencedirectassets.com/272579/1-s2.0-S0022249611X00020/1-s2.0-S0022249610001070/main.pdf?X-Amz-Date=20201117T153506Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=61b0e9e9cc37509e30bce1fc4e9ab57ed46a014b0295636227d11aec4a41dee6&X-Amz-Credential=ASIAQ3PHCVTY7OS7PK7A%2F20201117%2Fus-east-1%2Fs3%2Faws4_request&type=client&tid=prr-fd8abdd1-ce7d-4b54-bf8b-216d1ae3a85f&sid=c24150e919cd67408b3bee58172a421288d7gxrqb&pii=S0022249610001070&X-Amz-SignedHeaders=host&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCRRFGFc7b02V86pkMeqytyBK%2BR8I%2BfdsIpYbjfXSpIBwIhAORxDxLYdr4EoSyn1P7wlhG%2F1RnX8tIG0IRGOidKKm69KrQDCDAQAxoMMDU5MDAzNTQ2ODY1IgwzsYwSRMjSfdr4cbUqkQOPUxG702LEv3POe5ESC9FBVVHGeUF%2BB46FTtWqkhHgjkRIpuoFiavu1cuBWHQ9FwCZjcocan56LfXiySYBfl259MC8ieSYor9FKZLBaAhDCEblkiTdW2%2Fk4nfogp6fwWVdckC8gGVbu3wQ9Mdh%2FE91ZEix%2FIftmJ6IpAZkm0l0AFFt%2BngI7geWoZDeku5iImEUw6JJPgFz5Yw9cKa%2FuGM3hi29JsuI30qzBqZC9nGRCIx%2FLYeiDfF1v0QjFLmT%2FE5xpaNxMt%2FoWLiazRcconSQCCax6%2Bw9SR4NvWg2illOrLMEPuRYacIFRNhV9zj7Y06Bf%2BfG%2FTQxXdnDLH0VMkUWx%2BgjwRAqSvIb0JRg9q5gErPB1cZLCuCd3ybFSmtj7aQmfl7uhMAjQwnCcN6fhtlVK6Xb3Us7YglDaHekzf8RDv9stbxBWFGMPVmDUXHWOsUo89LY%2F9IbtQTs5Uu3ieMGePUVMY4ox3FPYAb5jWjaOFqs54LqfQ5nqjkLMiAY%2F11zCVyOAoPiDnDs6Wjuj52iszCtuc%2F9BTrqATkmIC%2Bu2w6MEow0zbPVAaqNF%2BjUh8Tv%2BWTInq9G3Q4PXIqL3CNNiISPDvuUggRwWGJDgXtr0C%2B4Gtv1bfs3BGHHgWOD261c6O0LHQuP11BLN8GCr7bFO1hjVAqHhC06vyhGQRmRzN32CPwo8pUM2gWw9xXGUioUiSJ%2FgRpDaszsW4Yr8Wm7L9Q7jAOYxEf7WLxPwAWO69o8JbJoouxwL4qeTEGMJ5IpUk3x3xPQIlawOlqY%2FHi0s4E1DE4ZMjH21hc3PrQ%2FiwI%2BTqY9Rg5sjLCBJ4vRCiqb3dpOWLsR5LFOTySXWoqIdO7b9Q%3D%3D&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&X-Amz-Expires=300&hash=038e650d987fa2a288e10fc48b36925d7c5e28b29ed45d8f619c55c43f9ea3b3)

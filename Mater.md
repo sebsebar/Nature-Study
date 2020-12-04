@@ -1,7 +1,7 @@
 Topics: [[Decision Making]], [[Decision Making Class]]
 # Main Idea
 [[Emotional Prospects]]
-[[OSF WRITING]]
+[[OSF]]
 
 # Resources
 [[Resources]]
@@ -10,4 +10,4 @@ Topics: [[Decision Making]], [[Decision Making Class]]
 [Look at  Nature: Human Behaviour and write the OSF Directly aimed at them](https://www.nature.com/nathumbehav/registeredreports)
 Do a power analysis
 
-'
+

@@ -18,3 +18,4 @@
 - We are doing VR - it's new, it's hot and NATURE likes it
 - We are building on the insights of a recent review, trying to incorportate it's findings
 - Prospect Theory....
+- Block Design, Randomized
