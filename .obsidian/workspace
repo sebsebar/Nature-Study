@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "R Packages.md",
-            "mode": "source"
+            "file": "Integral-Incidental and Affect-Emotion.md",
+            "mode": "preview"
           }
         }
       }
@@ -80,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R Packages.md",
+                "file": "Integral-Incidental and Affect-Emotion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,10 +97,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Untitled.md",
     "R Packages.md",
     "Setup.md",
     "Design of stim.md",
-    "Untitled.md",
     "OSF.md",
     "Introduction.md",
     "Mater.md",
