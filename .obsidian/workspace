@@ -6,22 +6,11 @@
       {
         "id": "326fa29197f8ba52",
         "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "OSF.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "5a3da5ec061a85d3",
-        "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Integral-Incidental and Affect-Emotion.md",
+            "file": "Master.md",
             "mode": "preview"
           }
         }
@@ -80,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Integral-Incidental and Affect-Emotion.md",
+                "file": "Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Master.md",
+    "Integral-Incidental and Affect-Emotion.md",
+    "OSF.md",
     "Untitled.md",
     "R Packages.md",
     "Setup.md",
     "Design of stim.md",
-    "OSF.md",
     "Introduction.md",
     "Mater.md",
-    "Design.md",
-    "Emotional Prospects.md",
-    "Meeting With Panos December 4th.md"
+    "Design.md"
   ]
 }
