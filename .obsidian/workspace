@@ -6,12 +6,34 @@
       {
         "id": "326fa29197f8ba52",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Master.md",
-            "mode": "preview"
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5ef098a51fe430b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Resources.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "8e739faf28757551",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Meeting With Panos December 14th.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master.md",
+                "file": "Meeting With Panos December 14th.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +108,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Meeting With Panos December 14th.md",
+    "Resources.md",
     "Master.md",
+    "Hypothesis.md",
+    "Idea for Analysis Viz.md",
+    "Untitled.md",
     "Integral-Incidental and Affect-Emotion.md",
     "OSF.md",
-    "Untitled.md",
     "R Packages.md",
-    "Setup.md",
-    "Design of stim.md",
-    "Introduction.md",
-    "Mater.md",
-    "Design.md"
+    "Setup.md"
   ]
 }
