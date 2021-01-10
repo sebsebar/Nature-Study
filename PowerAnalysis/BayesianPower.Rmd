@@ -1,0 +1,170 @@
+---
+title: "Bayesian Power"
+author: "Mikkel Werling"
+date: "12/2/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Taken largely from: https://solomonkurz.netlify.app/post/bayesian-power-analysis-part-i/
+
+Starting off by importing packages:
+
+```{r}
+library(pacman)
+p_load(tidyverse, brms, broom)
+```
+
+Here we plot the kind of effects we are after. Can we separate two groups, when the effect-size is 0.5? 
+Notice how that corresponds to the disparity between the two distributions
+
+```{r}
+# set our theme because, though I love the default ggplot theme, I hate gridlines
+theme_set(theme_grey() +
+            theme(panel.grid = element_blank()))
+
+# define the means
+mu_c <- 0
+mu_t <- 0.05
+
+# set up the data
+tibble(x = seq(from = -1, to = 1, by = .01)) %>%
+  mutate(c = dnorm(x, mean = mu_c, sd = .1),
+         t = dnorm(x, mean = mu_t, sd = .1)) %>% 
+  
+  # plot
+  ggplot(aes(x = x, ymin = 0)) +
+  geom_ribbon(aes(ymax = c),
+              size = 0, alpha = 1/3, fill = "grey25") +
+  geom_ribbon(aes(ymax = t),
+              size = 0, alpha = 1/3, fill = "blue2") +
+  geom_text(data = tibble(x = c(-.5, .5),
+                          y = .385,
+                          label = c("Baseline Condition", "Emotional Condition"),
+                          hjust = 1:0),
+            aes(y = y, label = label, color = label, hjust = hjust),
+            size = 5, show.legend = F) +
+  scale_x_continuous(NULL, breaks = -.5:.5) +
+  scale_y_continuous(NULL, breaks = NULL) +
+  scale_color_manual(values = c("grey25", "blue2"))
+```
+
+So! The plan is that given some kind of effect, like the one observed here, we want to have enough data to reliably tell that these two means are very different. Did you know, that you can write Latex in R?
+Essentially what we are doing is stating that we want to be able to reject the null-hypothesis if it is wrong. That is:
+
+$$H_0:\mu_c = \mu_t $$
+
+or alternatively 
+
+$$H_0:\mu_c - \mu_t = 0$$
+
+and thus our alternative is:
+
+$$H_1:\mu_c \neq \mu_t $$
+
+which is the same as
+
+$$H_1:\mu_c - \mu_t \neq 0$$
+
+In the Bayesian framework this is tested by:
+
+$$y_i \sim Normal(\mu_i, \sigma)$$
+$$\mu_i = \beta_0 + \beta_1 treatment_i $$
+
+Where treatment is some dummy variable coded as 0 and 1.
+
+Instead of p-values, what we are after are instead that 0 is not within our 95% confidence interval for our estimate. In that case, we can with 95% certainty reject the null if it is false. We can do this by simulating data, where that is the ground truth.
+
+## Let's start simulating
+
+We start by simulating 50 participants in both groups:
+
+```{r}
+n <- 50
+
+set.seed(1)
+
+d <-
+  tibble(group     = rep(c("control", "treatment"), each = n)) %>% 
+  mutate(treatment = ifelse(group == "control", 0, 1),
+         y         = ifelse(group == "control", 
+                            rnorm(n, mean = mu_c, sd = 1),
+                            rnorm(n, mean = mu_t, sd = 1)))
+
+glimpse(d)
+```
+
+Get some priors for the model:
+
+```{r}
+get_prior(data = d,
+          family = gaussian,
+          y ~ 0 + Intercept + treatment)
+```
+
+Fit the model with WRP:
+
+```{r}
+fit <-
+  brm(data = d,
+      family = gaussian,
+      y ~ 0 + Intercept + treatment,
+      prior = c(prior(normal(0, 2), class = b),
+                prior(student_t(3, 1, 1), class = sigma)),
+      seed = 1)
+```
+
+```{r}
+sim_d_and_fit <- function(seed, n) {
+  
+  mu_t <- .05
+  mu_c <- 0
+  
+  set.seed(seed)
+  
+  d <-
+    tibble(group     = rep(c("control", "treatment"), each = n)) %>% 
+    mutate(treatment = ifelse(group == "control", 0, 1),
+           y         = ifelse(group == "control", 
+                              rnorm(n, mean = mu_c, sd = .1),
+                              rnorm(n, mean = mu_t, sd = .1)))
+  
+  update(fit,
+         newdata = d, 
+         seed = seed) %>% 
+    tidy(prob = .95) %>% 
+    filter(term == "b_treatment")
+}
+```
+
+
+```{r}
+s6 <-
+  tibble(seed = 1:n_sim) %>% 
+  mutate(tidy = map(seed, sim_d_and_fit, n = 60)) %>% 
+  unnest(tidy) %>%
+  mutate(width = upper - lower)
+```
+
+```{r}
+s6 %>% 
+  ggplot(aes(x = reorder(seed, lower), y = estimate, ymin = lower, ymax = upper)) +
+  geom_hline(yintercept = c(0, .05), color = "white") +
+  geom_pointrange(fatten = 1/2) +
+  scale_x_discrete("reordered by the lower level of the 95% intervals", breaks = NULL) +
+  ylab(expression(beta[1])) +
+  # this kept the scale on the y-axis the same as the simulation with n = 50
+  coord_cartesian(ylim = c(-.05, 0.12))
+```
+
+```{r}
+s6 %>% 
+  mutate(check = ifelse(lower > 0, 1, 0)) %>% 
+  summarise(power = mean(check))
+```
+

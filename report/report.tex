@@ -1,0 +1,88 @@
+\documentclass{article}
+\usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{apacite}
+\usepackage{mathptmx}
+\usepackage[font = {small, it}]{caption}
+\DeclareCaptionLabelFormat{cont}{#1~#2\alph{ContinuedFloat}}
+\captionsetup[ContinuedFloat]{labelformat=cont}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{1.5}
+
+
+\fancypagestyle{plain}{
+\fancyhf{}
+\rhead{Mikkel Werling (201706722) \\ Sebastian Scott Engen (201708490)}
+\lhead{The Prospects of Emotion}
+\cfoot{\thepage}
+}
+\pagestyle{plain}
+
+\title{The Prospects of Emotion \\
+\large Investigating the modulating effects of emotions on the parameters of Cumulative Prospect Theory
+}
+\author{Mikkel Werling (201706722) \\ Sebastian Scott Engen (201708490)}
+\date{January 2021}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \section{Introduction}
+    \subsection{Prospect Theory}
+    \subsubsection{Prospect Theory and Expected Utility}
+    \subsubsection{Cumulative Prospect Theory (CPT)}
+    \subsubsection{Replication}
+    \subsubsection{The parameters of Cumulative Prospect Theory}
+    \subsection{Emotions}
+    \subsubsection{Rationality and Emotions}
+    \subsubsection{Historical shift in understanding emotions}
+    \subsubsection{Eliciting Emotions}
+    \subsubsection{Videos}
+    \subsection{Prospect Theory under the influence of Emotion}
+    \subsection{Models and Procedure}
+    \subsubsection{Estimating parameters}
+    \subsubsection{Bayesian Approach and Results}
+    \subsection{Hypotheses}
+    \subsubsection{Manipulation checks}
+    \subsubsection{Cross study check}
+    \subsubsection{Hypothesis testing}
+
+    \section{Design Plan}
+    \subsection{Blinding}
+    \subsection{Study Design}
+    \subsection{Randomization}
+    \section{Sampling Plan}
+    \subsection{Data Collection Procedures}
+    \subsection{Sample Size}
+    \subsection{Stopping Rule}
+    \section{Variables}
+    \subsection{Manipulated Variables}
+    \subsection{Measured Variables}
+    \subsection{Indices}
+    \section{Analysis Plan}
+    \subsection{Statistical models}
+    \subsection{Transformations}
+    \subsection{Inference criteria}
+    \subsection{Data Exclusion}
+
+
+
+
+
+    $$V(O) = \sum \pi (p_i)v(x_i) $$
+
+    $$\pi(p_i) = \frac{p_i^c}{(p_i^c-[1-p_i^c])^\frac{1}{c}}$$
+
+    $$v(x) = \begin{cases}
+        x^\alpha & \text{if } x \geq 0 \\
+        -\lambda(-x)^\beta & \text{if } x < 0 
+    \end{cases}$$
+\end{document}
