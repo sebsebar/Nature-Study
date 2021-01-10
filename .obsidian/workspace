@@ -4,24 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "039f2431d393e847",
+        "id": "326fa29197f8ba52",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Title.md",
+=======
+            "file": "Master.md",
+>>>>>>> 734f32ef0c390f9e855b2a8b88dcee6dd0844252
             "mode": "source"
           }
         }
       },
       {
-        "id": "07a7ddff0a8f8c7f",
+        "id": "5ef098a51fe430b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+<<<<<<< HEAD
+            "file": "Notes on Booji 2010.md",
+=======
+            "file": "Resources.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "8e739faf28757551",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes on Booji 2010.md",
+            "file": "Meeting With Panos December 14th.md",
+>>>>>>> 734f32ef0c390f9e855b2a8b88dcee6dd0844252
             "mode": "source"
           }
         }
@@ -80,7 +99,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Notes on Booji 2010.md",
+=======
+                "file": "Meeting With Panos December 14th.md",
+>>>>>>> 734f32ef0c390f9e855b2a8b88dcee6dd0844252
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +120,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Notes on Booji 2010.md",
     "Introduction.md",
     "Mater.md",
@@ -107,5 +131,17 @@
     "Author contributions.md",
     "Acknowledgements.md",
     "Abstract.md"
+=======
+    "Meeting With Panos December 14th.md",
+    "Resources.md",
+    "Master.md",
+    "Hypothesis.md",
+    "Idea for Analysis Viz.md",
+    "Untitled.md",
+    "Integral-Incidental and Affect-Emotion.md",
+    "OSF.md",
+    "R Packages.md",
+    "Setup.md"
+>>>>>>> 734f32ef0c390f9e855b2a8b88dcee6dd0844252
   ]
 }
