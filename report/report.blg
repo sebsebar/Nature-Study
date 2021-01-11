@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7350 64-bit)
+Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
+The top-level auxiliary file: report.aux
+The style file: apacite.bst
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 20000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: NATURE-PAPER.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--you've exceeded 100, the entry-string-size, for entry ruggeri2020nhba
+while executing--line 5062 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 100, the entry-string-size, for entry barrett2007mice
+while executing--line 5076 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 100, the entry-string-size, for entry gilman2017br
+while executing--line 5076 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 100, the entry-string-size, for entry joseph2020pbb
+while executing--line 5076 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 100, the entry-string-size, for entry ruggeri2020nhba
+while executing--line 5076 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 100, the entry-string-size, for entry smitha2017resting
+while executing--line 5076 of file apacite.bst
+*Please notify the bibstyle designer*
+Warning--No journal in keltner2010emotion
+Warning--No journal in kleven2018
+Warning--No journal in menon2015salience
+You've used 48 entries,
+            6951 wiz_defined-function locations,
+            1600 strings with 21458 characters,
+and the built_in function-call counts, 95922 in all, are:
+= -- 11703
+> -- 811
+< -- 4617
++ -- 4940
+- -- 96
+* -- 6337
+:= -- 17491
+add.period$ -- 191
+call.type$ -- 48
+change.case$ -- 842
+chr.to.int$ -- 0
+cite$ -- 99
+duplicate$ -- 2773
+empty$ -- 3758
+format.name$ -- 1423
+if$ -- 18019
+int.to.chr$ -- 0
+int.to.str$ -- 144
+missing$ -- 0
+newline$ -- 1279
+num.names$ -- 384
+pop$ -- 1389
+preamble$ -- 1
+purify$ -- 216
+quote$ -- 0
+skip$ -- 6141
+stack$ -- 0
+substring$ -- 5427
+swap$ -- 1599
+text.length$ -- 141
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3968
+warning$ -- 3
+while$ -- 495
+width$ -- 0
+write$ -- 1586
+(There were 9 warnings)
